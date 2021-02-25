@@ -1,0 +1,38 @@
+.toolbar {
+  display: flex;
+  align-items: center;
+  height: 9.5vh;
+  margin-right: 45px;
+}
+
+.avatar {
+  margin-right: 25px;
+  margin-top: 10px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.color {
+  background-color: rgb(225, 233, 233);
+  height: 102vh;
+}
+
+.exit {
+  cursor: pointer;
+  font-weight: bold;
+  color: black;
+}
+
+.exit:hover {
+  color: rgb(121, 117, 117);
+}
+
+.buttons-menu {
+  display: flex;
+}
+
+@media only screen and (max-width: 980px) {
+  .buttons-menu {
+    display: none;
+  }
+}
