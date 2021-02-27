@@ -30,7 +30,7 @@ http://localhost:5000/usuarios
 
 ```bash
 # Vá para a pasta do projeto
-$ cd register_clients
+$ cd cadastro_simples
 
 # Instale as dependências
 $ npm i
@@ -44,7 +44,7 @@ $ npm start
 
 ```bash
 # Vá para a pasta do projeto
-$ cd register_clients
+$ cd cadastro_simples
 
 # Execute a aplicação em modo de teste
 $ npm test
